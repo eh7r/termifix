@@ -1,0 +1,30 @@
+{
+  "arch": {
+    "update_system": "sudo pacman -Syu",
+    "install_package": "sudo pacman -S <package_name>",
+    "remove_package": "sudo pacman -R <package_name>",
+    "repair_system": "sudo pacman -Qk",
+    "clean_cache": "sudo pacman -Sc",
+    "list_files": "ls -la",
+    "check_disk": "df -h",
+    "check_memory": "free -h",
+    "network_status": "ip a",
+    "search_package": "pacman -Ss <package_name>",
+    "system_info": "uname -a",
+    "check_services": "systemctl list-units --type=service --state=running"
+  },
+  "debian": {
+    "update_system": "sudo apt update && sudo apt upgrade -y",
+    "install_package": "sudo apt install <package_name>",
+    "remove_package": "sudo apt remove <package_name>",
+    "repair_system": "sudo dpkg --configure -a",
+    "clean_cache": "sudo apt autoremove",
+    "list_files": "ls -la",
+    "check_disk": "df -h",
+    "check_memory": "free -h",
+    "network_status": "ip a",
+    "search_package": "apt search <package_name>",
+    "system_info": "uname -a",
+    "check_services": "systemctl list-units --type=service --state=running"
+  }
+}
