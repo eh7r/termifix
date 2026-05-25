@@ -1,6 +1,6 @@
 TERMIFIX
 
-![screenshot](termifix-screenshot.png)
+![screenshot](termifix-screenshot.jpg)
 
 
 
