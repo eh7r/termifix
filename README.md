@@ -1,7 +1,5 @@
 TERMIFIX
 
-![screenshot](termifix-screenshot.jpg)
-
 
 
 TERMIFIX is a Linux terminal tool that works on Arch Linux and other distributions. It helps you quickly search errors online or run predefined commands.
